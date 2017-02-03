@@ -1,7 +1,7 @@
 var config = {
       apiKey: '<your-api-key>',
       authDomain: '<your-auth-domain>',
-      databaseURL: 'https://relaxr-f9cd5.firebaseio.com/',//'<your-database-url>',
+      databaseURL: 'https://relaxr-f9cd5.firebaseio.com/',
       storageBucket: '<your-storage-bucket>'
     };
     firebase.initializeApp(config);

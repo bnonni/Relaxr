@@ -1,11 +1,3 @@
-var config = {
-      apiKey: '<your-api-key>',
-      authDomain: '<your-auth-domain>',
-      databaseURL: 'https://relaxr-f9cd5.firebaseio.com/',
-      storageBucket: '<your-storage-bucket>'
-    };
-    firebase.initializeApp(config);
-    
 $(document).ready(function(){
     $('.readmore').on('click', slideDown);
     $('.readless').on('click', readLess);
